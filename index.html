@@ -7,39 +7,53 @@
     <title>Sign Up</title>
 </head>
 <body>
-    <div id="left-image">
-        <div id="caption">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 6 7">
-                <path d="M 1 1 L 7 1 L 7 8 M 7 8 L 6 7 l -1 1 L 4 7 L 3 8 L 2 7 L 1 8 L 1 1 M 3 3 A 1 1 0 0 0 3 5 A 1 1 0 0 0 3 3 M 5 3 A 1 1 0 0 0 5 3 A 1 1 0 0 0 5 5 A 1 1 0 0 0 5 3 M 3 6 C 4 7 5 6 5 6" stroke="#f2f0e8" stroke-width="0.3" fill="none"/>
-            </svg>
-            <h1>Sign Up</h1>
-        </div>
-        <p>Photo by <a href="Jean Carlo Emer">Jean Carlo Emer</a> on <a href="com">Unsplash</a></p>
-    </div>
-    <!-- <img src="lighthouse.jpg" alt="A beautiful picture of a lighthouse" id="left-image"> -->
     <div id="content">
-        <form action="">
-            <label for="first-name">First Name</label>
-            <input type="text" name="first-name">
-
-            <label for="last-name">Last Name</label>
-            <input type="text" name="last-name">
-            
-            <label for="email">Email</label>
-            <input type="text" name="email">
-            
-            <label for="phone">Phone Number</label>
-            <input type="text" name="phone">
-            
-            <label for="password">Password</label>
-            <input type="text" name="password">
-            
-            <label for="confirm-password">Confirm password</label>
-            <input type="text" name="confirm-password">
-
-            <label for=""></label>
-            <input type="submit" value="Create Account">
-        </form>
+        <div id="left-image">
+            <div id="caption">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 6 7">
+                    <path d="M 1 1 L 7 1 L 7 8 M 7 8 L 6 7 l -1 1 L 4 7 L 3 8 L 2 7 L 1 8 L 1 1 M 3 3 A 1 1 0 0 0 3 5 A 1 1 0 0 0 3 3 M 5 3 A 1 1 0 0 0 5 3 A 1 1 0 0 0 5 5 A 1 1 0 0 0 5 3 M 3 6 C 4 7 5 6 5 6" stroke-width="0.3" fill="none"/>
+                </svg>
+                <h1>Sign Up</h1>
+            </div>
+            <p>Photo by <a href="https://unsplash.com/@jeancarloemer">Jean Carlo Emer</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+        </div>
+    <!-- <img src="lighthouse.jpg" alt="A beautiful picture of a lighthouse" id="left-image"> -->
+        <div id="right-content">
+            <div id="inputs" class="left">
+                <h2>Come on in!</h2>
+                <form action="">
+                    <div class="input">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name">
+                    </div>
+                    <div class="input">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name">
+                    </div>   
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="text" name="email">
+                    </div>    
+                    <div class="input">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" name="phone">
+                    </div>    
+                    <div class="input">
+                        <label for="password">Password</label>
+                        <input type="text" name="password">
+                    </div>    
+                    <div class="input">
+                        <label for="confirm-password">Confirm password</label>
+                        <input type="text" name="confirm-password">
+                    </div>
+            </div>
+            <div id="submit" class="left">  
+                <label for=""></label>
+                <input type="submit" value="Create Account">
+            </div>
+            </form>
+            <p class="left">Already have an account? <a href="">Log in</a></p>
+        </div>
     </div>
 </body>
 </html>
